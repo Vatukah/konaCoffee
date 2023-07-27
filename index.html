@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KONA COFFEE STORE</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="profile" href="http://gmpg.org/xfn/11">
+
+  <script src="https://kit.fontawesome.com/8a047c8031.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <img src="images/konaCoffee-Logo.png" alt="logo" />
+  </header>
+
+  <section id="hero">
+    <img src="images/kona_coffee_beans_image.jpg" alt="coff" />
+    <div class="hero-content">
+      <h1>KONA COFFEE STORE</h1>
+      <p>Discover the finest coffee from around the world at Kona Coffee</p>
+      <a href="#menu" class="visit-btn">Visit Now</a>
+    </div>
+
+    <img src="images/kona_coffee_beans_image.jpg" alt="coff" id="flipped" />
+  </section>
+  <section id="creditiblity">
+    <h2 class="section-title">Serving since</h2>
+    <div id="badgeCont">
+      <i class="fa-solid fa-award" style="color: #990000" id="badge"></i>
+      <p>1995</p>
+    </div>
+
+    <p>
+      We gives <span class="highlight">100%</span> Pure Kona,
+      <span class="highlight">100%</span> of the time, over 3 Decades
+    </p>
+  </section>
+
+  <section id="about">
+    <h2 class="section-title">About Us</h2>
+    <div id="text">
+      <p>
+        <span class="highlight">Welcome to Kona Coffee</span>,Kona Coffee is gourmet coffee grown in the North and South
+        district of Kona ,on the Island of Hawaii.Located on the golden Kona Coast, only a small number of Korea coffee
+        farms exist.
+        Kama'aina (local) families own most of the coffee farms and have for generations. There is a difference in
+        quality of beans the coffee farms.At KonaCoffee.Com we expand great effort to taste test and source the best
+        crops from local grower to ensure you get the best cup of coffee.
+
+      </p>
+      <p>
+        <a href=""> <span class="highlight"> KonaCoffee.com</span></a> is your source for the sought-after Extra Fancy,
+        the top grade (largest and best beans), and the very
+        rare Peaberry beans. Critics agree that peaberry coffee has a smoother, more chocolaty flavor. Peaberry beans
+        are
+        rare representing approximately 3% to 7% of the total crop yield.
+        All our coffees are 100% pure Kona beans. We do not sell the thinner Kona blends (which may be as little as 10%
+        Kona beans). Blended coffee comes in disguise, so be careful! KonaCoffee.com gives you 100% pure Kona, 100%
+        of the time. <span id="dots" class="highlight">...</span>
+        <span id="readMore"> Read all about the <a href=""> <span class="highlight">Kona coffee story</span></a>, and
+          then go to our coffee store to order your gourmet coffee directly from the
+          first and original online Kona Coffee Store in Kona, Hawaii. KonaCoffee.com
+          We source our coffee directly from local farms, roast it fresh and ship fast and directly to you.
+          KonaCoffee.com is
+          the most trusted seller of gourmet quality coffee in Kona Hawaii. As a local family owned and operated
+          business,
+          you can trust you're getting real Kona.
+          If you have any questions about purchasing 100% Kona Coffee email us or call for more information.
+          Shop Kona Coffee and get free shipping now!
+          100% Pure Kona Coffee direct from Kona, Hawaii.
+          100% KONA COFFEE - 100% OF THE TIME</span><span id="readMoreBtn" onclick="readMoreFun()">Read More</span>
+      </p>
+    </div>
+    <div id="img-container">
+
+    </div>
+
+
+  </section>
+
+  <section id="special">
+    <h2 class="section-title">Our Special</h2>
+    <div class="special-item">
+      <img src="images/konaCoffee.jpg" alt="Coffee 1" />
+      <h3>Extra Fancy Private Reserved</h3>
+      <p>
+        100% Kona Coffee Medium Roast
+      </p>
+      <span class="price">1lb at $42.99</span>
+    </div>
+    <Button class="visit-btn">See more</Button>
+    <div class="special-item">
+      <img src="images/konaCoffee1.jpg" alt="Coffee 2" />
+      <h3>Peaberry</h3>
+      <p>
+        Medium Roast- Buy 3 + free shipping
+      </p>
+      <span class="price">1lb at $53.99</span>
+    </div>
+  </section>
+  <section id="konaClub">
+    <a href="#hero"><button class="visit-btn">Join Kona Coffee Club</button></a>
+    <p>Hey there&#9995, we also have Coffee Club so just </p>
+    <p>Join the club and receive <span class="highlight"> amazing discount</span> on orders</p>
+  </section>
+  <section id="whyChooseUs">
+    <img src="images/konaCoffee2.jpg" alt="Coffee Hero Image" class="hero-image" />
+    <h2 class="section-title">Why Choose Us?</h2>
+    <div class="features">
+      <div class="feature">
+        <img src="images/konnacoffee100.png" alt="Feature 1" />
+        <h3>High-Quality Coffee</h3>
+        <p>Indulge in our carefully selected, premium coffee blends.</p>
+      </div>
+      <div class="feature">
+        <img src="images/3333449.jpg" alt="Feature 2" />
+        <h3>Fast Shipping</h3>
+        <p>Enjoy quick and reliable delivery to your doorstep.</p>
+      </div>
+      <div class="feature">
+        <img src="images/5138226.jpg" alt="Feature 3" />
+        <h3>Customer Support</h3>
+        <p>We're here 24/7 to assist you with any inquiries or issues.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Have a question or want to place an order? Reach out to us!</p>
+    <form action="contact_form_handler.php" method="post">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit" class="visit-btn">Send</button>
+    </form>
+    <p><a href="tel:8886232327">Order Toll Free :888-623-2327</a></p>
+    <div id="socialMedia">
+      <p>Follow us on :
+      <a href=""><i class="fa-brands fa-facebook" id="facebook"></i></a>
+      <a href=""><i class="fa-brands fa-twitter" id="twitter"></i></a>
+      <a href=""><i class="fa-brands fa-instagram" id="instagram"></i></a>
+      <a href=""><i class="fa-brands fa-pinterest" id="pinterest"></i></a>
+      <a href=""><i class="fa-brands fa-linkedin" id="linkedin"></i></a></p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Kona Coffee. All rights reserved.</p>
+    <p><a href="http://www.freepik.com">Designed by slidesgo / Freepik</a></p>
+    <p>Image by <a
+        href="https://www.freepik.com/free-vector/flat-customer-support-illustration_13184993.htm#query=customer%20support&position=32&from_view=search&track=ais#position=32&query=customer%20support">Freepik</a>
+    </p>
+  </footer>
+</body>
+<script>
+  let readMore = document.getElementById("readMore");
+  let dots = document.getElementById("dots");
+  let readMoreBtn = document.getElementById("readMoreBtn");
+
+  function readMoreFun() {
+    if (readMoreBtn.innerText === "Read More") {
+      readMore.style.display = "block";
+      dots.style.display = "none";
+      readMoreBtn.innerText = "Read Less";
+    } else {
+      readMore.style.display = "none";
+      dots.style.display = "inline-block";
+      readMoreBtn.innerText = "Read More";
+    }
+  }
+</script>
+
+</html>
